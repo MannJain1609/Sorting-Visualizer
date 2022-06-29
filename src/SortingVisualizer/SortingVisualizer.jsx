@@ -5,7 +5,7 @@ import { getQuickSortAnimations } from '../sortingAlgorithms/quickSort';
 import { getInsertionSortAnimations } from '../sortingAlgorithms/InsertionSort';
 import { getBubbleSortAnimations } from '../sortingAlgorithms/bubbleSort';
 
-const ANIMATION_SPEED_MS = 10;
+let ANIMATION_SPEED_MS = 50;
 const PRIMARY_COLOR = 'turquoise';
 const SECONDARY_COLOR = 'red';
 const WINDOW_WIDTH = window.screen.width;
