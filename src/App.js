@@ -5,8 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>gkguguhuihuho</p>
+      <header>Sorting Visualizer</header>
       <SortingVisualizer></SortingVisualizer>
+      <div className="Footer">
+        <p>Created By Mann Jain with Love ❤️</p>
+      </div>
     </div>
   );
 }

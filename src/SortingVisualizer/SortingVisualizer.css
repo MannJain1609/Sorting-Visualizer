@@ -1,10 +1,42 @@
-.array-container {
-    position: absolute;
-    left: 100px;
+*{
+    margin: 0;
+    padding: 0;
+}
+.App {
+    bottom: 0px;
 }
 
+p {
+    text-align: center;
+    color: red;
+    font-size: x-small;
+}
+.array-container {
+    text-align:center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    height: 50px;
+    background: #000;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons button{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: larger;
+    cursor: pointer;
+}
 .array-bar {
     width: 15px;
     display: inline-block;
     margin: 0 1px;
+    bottom: 0;
 }

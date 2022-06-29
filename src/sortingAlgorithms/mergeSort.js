@@ -92,3 +92,4 @@ function merge(
 //     while (j < secondHalf.length) sortedArray.push(secondHalf[j++]);
 //     return sortedArray;
 // }
+
